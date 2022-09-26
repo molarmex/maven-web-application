@@ -16,7 +16,7 @@ pipeline{
             }
         }
 
-
+/*
  stage('CodeQuality'){
       steps{
         sh "echo 'Perfoming CodeQualityAnalysis' "
@@ -57,5 +57,6 @@ Thanks
 Molarmex''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
     }
 }
+*/
 }
 
